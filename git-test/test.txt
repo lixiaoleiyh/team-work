@@ -1,4 +1,4 @@
-
+﻿
 #102 & 103
 nohup sh mqnamesrv &
 
@@ -22,3 +22,6 @@ RocketMq-console-ng
 http://hadoop001:8080/#/
 
 
+//的房间爱看大两房
+//打飞机扩大所肩负的
+//
