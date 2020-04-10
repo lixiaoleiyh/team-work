@@ -1,0 +1,22 @@
+#102¡¢103
+nohup sh mqnamesrv &
+
+#102
+nohup sh mqbroker -c /home/hadoop/app/rocketmq/conf/2m-2s-sync/broker-a.properties &
+#102
+nohup sh mqbroker -c /home/hadoop/app/rocketmq/conf/2m-2s-sync/broker-b-s.properties &
+
+
+#103
+nohup sh mqbroker -c /home/hadoop/app/rocketmq/conf/2m-2s-sync/broker-b.properties &
+#103
+nohup sh mqbroker -c /home/hadoop/app/rocketmq/conf/2m-2s-sync/broker-a-s.properties &
+
+
+sh mqshutdown broker
+sh mqshutdown namesrv
+
+
+RocketMq-console-ng
+http://hadoop001:8080/#/
+
