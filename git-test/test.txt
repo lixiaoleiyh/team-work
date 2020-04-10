@@ -21,5 +21,4 @@ sh mqshutdown namesrv
 RocketMq-console-ng
 http://hadoop001:8080/#/
 
--------add
-的房间打扫开发
+
